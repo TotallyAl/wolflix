@@ -1,0 +1,23 @@
+{
+  "_commentaire": "Catalogue du profil Staff. Même format que config.json : ajoute autant de films que tu veux, ils seront regroupés par catégorie.",
+  "films": {
+    "staff_1": {
+      "titre": "Tenet",
+      "categorie": "Soirées Staff",
+      "url": "https://www.youtube.com/watch?v=NQ5p6WYYK-s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUodlcfivmhsiVoBuglw6fgvZIj6kwu_ymNXyHH-49Ng&s=10"
+    },
+    "staff_2": {
+      "titre": "Retour vers le futur",
+      "categorie": "Soirées Staff",
+      "url": "https://www.youtube.com/watch?v=cU5BREZ9ke0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSsAvx2PA-tTmysIgVm62YSWy5z23DFrb8LjZaoMGJRg&s=10"
+    },
+    "staff_3": {
+      "titre": "Mission Impossible",
+      "categorie": "Soirées Staff",
+      "url": "https://www.youtube.com/watch?v=GM2b1ZZ0Vfg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ultdH3gNKtPi6xKblwAfZH2cvbexVd4lmYajlA2POw&s=10"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_commentaire": "Ajoute, modifie ou supprime des profils ici. Chaque profil a un nom, un emoji (avatar) et une couleur (bordure + lueur).",
+  "_options": [
+    "nom : le nom affiché sous l'avatar",
+    "emoji : n'importe quel emoji (🐺 🦊 🦉 🐻 🦅 ...)",
+    "couleur : code hex pour la bordure et la lueur de l'avatar",
+    "image : (optionnel) URL ou chemin local comme images/avatar.jpg — remplace l'emoji si présent",
+    "motDePasse : (optionnel) si présent, le profil est verrouillé par ce code. Un cadenas s'affiche sur l'avatar.",
+    "films : (optionnel) le fichier JSON de catalogue à charger pour ce profil (même format que config.json). Si absent, c'est config.json qui est utilisé."
+  ],
+  "profils": {
+    "bagheera": {
+      "nom": "Bagheera",
+      "emoji": "🐈‍⬛",
+      "couleur": "#3ee87a",
+      "films": "config.json",
+      "motDePasse": "1234"
+    },
+    "akela": {
+      "nom": "Akela",
+      "emoji": "🐺",
+      "couleur": "#f5a623",
+      "films": "akela.json"
+    },
+    "sona": {
+      "nom": "Sona",
+      "emoji": "🐘",
+      "couleur": "#5ac8fa",
+      "films": "sona.json"
+    },
+    "ziggy": {
+      "nom": "Ziggy",
+      "emoji": "🐷",
+      "couleur": "#e85a7a",
+      "films": "ziggy.json"
+    }
+  }
+}

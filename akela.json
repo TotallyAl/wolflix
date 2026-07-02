@@ -1,0 +1,53 @@
+{
+  "_commentaire": "Catalogue du profil Staff. Même format que config.json : ajoute autant de films que tu veux, ils seront regroupés par catégorie.",
+  "films": {
+    "akela_1": {
+      "titre": "Les dangers des implants de cheveux en Turquie",
+      "categorie": "Mon beau crâne",
+      "url": "https://www.youtube.com/watch?v=5wncqk3Ty4Y",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHXW7ABfN62gFRtepPB1mPwDBalotIWKILNj4YPXvVw&s=10"
+    },
+    "akela_12": {
+      "titre": "Conseils pour jeunes chauves",
+      "categorie": "Mon beau crâne",
+      "url": "https://www.youtube.com/watch?v=0eoXPni9yGI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ueZa8tk7NSKLpgUogE8a-JJIt1mxMB25RJkUsCc38g&s=10"
+    },
+    "akela_13": {
+      "titre": "Les chauves ont-ils du mal a pécho ?",
+      "categorie": "Mon beau crâne",
+      "url": "https://www.youtube.com/watch?v=Sh_N_xWsTEM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhyI9LX-ZXSkkkttzPNtl7Os71v20ju3ynvKGNAJmFw&s=10"
+    },
+    "akela_2": {
+      "titre": "Ensemble on est mieux",
+      "categorie": "Ma musique ❤️",
+      "url": "https://www.youtube.com/watch?v=ZHNT7hn-za4&list=RDZHNT7hn-za4&start_radio=1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZkQatwZVzI3MSzyiWMuQVGV_l2pACljEptEq-cT4ysA&s=10"
+    },
+    "akela_3": {
+      "titre": "Miel Pops",
+      "categorie": "Ma musique ❤️",
+      "url": "https://www.youtube.com/watch?v=dgXkrRkFZ18",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-Bx8phic3zi926cw9h1KQhi1DidVmEfcOdaZV7y57A&s=10"
+    },
+    "akela_4": {
+      "titre": "Les responsabilités",
+      "categorie": "Chef responsable 💔 👑",
+      "url": "https://www.youtube.com/watch?v=QngeAy3NWTs",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1RomtQS884Q6sq11a3995HZURRBpZHr5P_xmHo6HBRQ&s=10"
+    },
+    "akela_5": {
+      "titre": "Staline – Comment diriger par l'autoritarisme",
+      "categorie": "Chef responsable 💔 👑",
+      "url": "https://www.youtube.com/watch?v=kWkaemKkuB8",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR9bs6qg4LIzVLHa_Z-NlBiu4kD-3FQ53ivORzpgeGqHAnaDDJ8WU3nCh4dVoMbBsC9UO2fmJtFpoqAiYCmY2DZ6062ez3S3DhIeRvqGclP-A&s=19"
+    },
+    "akela_6": {
+      "titre": "Les grands discours des hommes à front panoramique",
+      "categorie": "Chef responsable 💔 👑",
+      "url": "Les grands discours des hommes à front panoramique",
+      "image": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/winston-churchill-gettyimages-3062107?_a=BAVMn6DY0"
+    }
+  }
+}

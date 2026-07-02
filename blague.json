@@ -1,0 +1,19 @@
+{
+  "_commentaire": "Le faux quiz de récupération de mot de passe. Ajoute autant de questions que tu veux : peu importe la réponse choisie, c'est 'reponse' qui s'affiche.",
+  "_options": [
+    "question : la question de 'sécurité' posée",
+    "propositions : la liste des choix affichés (2 ou plus)",
+    "reponse : le message troll affiché quoi qu'on choisisse"
+  ],
+  "titre": "Récupération du mot de passe",
+  "sousTitre": "Réponds aux questions de sécurité pour prouver ton identité",
+  "questions": [
+    {
+      "question": "Qui est le chef le plus beau ?",
+      "propositions": ["Keshava", "Kaa", "Akela", "Raksha"],
+      "reponse": "Aucune des propositions ci-dessus, on sait tous que Bagheera est le plus beau. 😏"
+    }
+  ],
+  "messageFinal": "Bravo, tu as échoué à toutes les questions ! Le mot de passe reste donc un secret bien gardé. Va demander gentiment au staff. 🐺",
+  "boutonFinal": "Retourner la queue entre les jambes"
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WOLFLIX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  Les films sont définis dans config.json (à côté de ce fichier) -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+
+<!-- PAGE D'ATTENTE (avant le splash) -->
+<div id="welcome">
+  <div class="welcome-stars" id="welcomeStars"></div>
+  <div class="welcome-moon"></div>
+  <svg class="welcome-trees" viewBox="0 0 1200 300" preserveAspectRatio="none">
+    <polygon fill="#050a08" points="0,300 0,180 40,150 80,200 130,120 180,180 230,100 280,160 340,140 390,90 440,150 490,130 540,170 600,110 660,160 720,130 780,180 840,140 900,100 960,170 1020,130 1080,180 1140,150 1200,200 1200,300"/>
+    <polygon fill="#0a1410" opacity="0.8" points="0,300 0,220 60,190 120,230 180,180 250,220 320,200 380,240 450,210 520,250 590,220 660,240 730,210 800,250 870,220 940,240 1020,210 1090,250 1160,230 1200,250 1200,300"/>
+  </svg>
+  <div class="fireflies" id="fireflies"></div>
+  <div class="welcome-content">
+    <div class="welcome-tag">◆ CAMP SCOUT ◆</div>
+    <div class="welcome-title">WOLFLIX</div>
+    <div class="welcome-subtitle">Cinéma de la meute</div>
+    <button class="welcome-btn" id="welcomeBtn">
+      <span class="welcome-btn-text">Entrer dans la forêt</span>
+      <span class="welcome-btn-arrow">→</span>
+    </button>
+    <div class="welcome-hint">Clique sur le bouton pour commencer</div>
+  </div>
+</div>
+
+
+<!-- SPLASH SCREEN -->
+<div id="splash" class="hidden">
+  <div class="stars" id="stars"></div>
+  <div class="moon"></div>
+  <svg class="trees" viewBox="0 0 1200 300" preserveAspectRatio="none">
+    <polygon fill="#050a08" points="0,300 0,180 40,150 80,200 130,120 180,180 230,100 280,160 340,140 390,90 440,150 490,130 540,170 600,110 660,160 720,130 780,180 840,140 900,100 960,170 1020,130 1080,180 1140,150 1200,200 1200,300"/>
+    <polygon fill="#0a1410" opacity="0.8" points="0,300 0,220 60,190 120,230 180,180 250,220 320,200 380,240 450,210 520,250 590,220 660,240 730,210 800,250 870,220 940,240 1020,210 1090,250 1160,230 1200,250 1200,300"/>
+  </svg>
+  <div class="splash-title">WOLFLIX</div>
+  <div class="splash-subtitle">CINÉMA DE LA MEUTE</div>
+  <div class="howl-wave"></div>
+</div>
+
+<!-- CHOIX DU PROFIL -->
+<div id="profiles" class="hidden">
+  <div class="profiles-stars" id="profilesStars"></div>
+  <svg class="profiles-trees" viewBox="0 0 1200 300" preserveAspectRatio="none">
+    <polygon fill="#050a08" points="0,300 0,180 40,150 80,200 130,120 180,180 230,100 280,160 340,140 390,90 440,150 490,130 540,170 600,110 660,160 720,130 780,180 840,140 900,100 960,170 1020,130 1080,180 1140,150 1200,200 1200,300"/>
+    <polygon fill="#0a1410" opacity="0.8" points="0,300 0,220 60,190 120,230 180,180 250,220 320,200 380,240 450,210 520,250 590,220 660,240 730,210 800,250 870,220 940,240 1020,210 1090,250 1160,230 1200,250 1200,300"/>
+  </svg>
+  <div class="profiles-content">
+    <div class="profiles-tag">◆ WOLFLIX ◆</div>
+    <h1 class="profiles-title">Qui regarde ?</h1>
+    <div class="profiles-grid" id="profilesGrid"></div>
+    <div class="profiles-hint">Choisis ton profil pour rejoindre la meute</div>
+  </div>
+
+  <!-- Saisie du mot de passe -->
+  <div class="password-overlay" id="passwordOverlay">
+    <div class="password-box" id="passwordBox">
+      <div class="password-avatar" id="passwordAvatar"></div>
+      <div class="password-title" id="passwordTitle">Profil verrouillé</div>
+      <div class="password-subtitle">Entre le mot de passe de la meute</div>
+      <input type="password" class="password-input" id="passwordInput" autocomplete="off" placeholder="••••••">
+      <div class="password-error" id="passwordError">Mauvais code... le loup ne te reconnaît pas 🐺</div>
+      <div class="password-actions">
+        <button class="btn" id="passwordSubmit">Déverrouiller</button>
+        <button class="password-cancel" id="passwordCancel">Annuler</button>
+      </div>
+      <button class="password-forgot" id="passwordForgot">Mot de passe oublié ?</button>
+    </div>
+  </div>
+
+  <!-- Faux quiz de récupération -->
+  <div class="password-overlay" id="quizOverlay">
+    <div class="password-box quiz-box" id="quizBox">
+      <div class="quiz-step" id="quizStep"></div>
+      <div class="password-title" id="quizTitle"></div>
+      <div class="password-subtitle" id="quizSubtitle"></div>
+      <div class="quiz-body" id="quizBody"></div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN APP -->
+<div id="app">
+  <nav id="navbar">
+    <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">WOLFLIX</div>
+    <div class="nav-profile" id="navProfile" title="Changer de profil"></div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <svg class="forest-silhouette" viewBox="0 0 1200 300" preserveAspectRatio="none">
+      <polygon fill="#050a08" points="0,300 0,200 50,170 100,210 160,140 220,200 280,120 340,180 400,150 460,100 520,160 580,140 640,180 700,120 760,170 820,140 880,190 940,150 1000,110 1060,180 1120,140 1200,200 1200,300"/>
+    </svg>
+    <div class="hero-content">
+      <div class="hero-tag">◆ CAMP SCOUT • ÉDITION SPÉCIALE ◆</div>
+      <h1 class="hero-title">Le cinéma<br>de la meute</h1>
+      <p class="hero-description">Chaque jour, une nouvelle aventure. Embarque la troupe dans l'univers du septième art et hurle avec les loups.</p>
+      <button class="btn" onclick="document.querySelector('.content').scrollIntoView({behavior:'smooth'})">
+        ▶ Explorer
+      </button>
+    </div>
+  </section>
+
+  <section class="content" id="content"></section>
+</div>
+
+<!-- PLAYER -->
+<div class="player-overlay" id="playerOverlay">
+  <button class="player-close" onclick="closePlayer()">✕</button>
+  <div class="player-content" id="playerContent"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

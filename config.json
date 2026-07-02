@@ -1,0 +1,143 @@
+{
+  "_commentaire": "Ajoute, modifie ou supprime des films ici. La catégorie est libre : mets ce que tu veux, les films seront regroupés automatiquement dans l'ordre d'apparition.",
+  "_formats_url": [
+    "YouTube : https://www.youtube.com/watch?v=...",
+    "Vimeo : https://vimeo.com/...",
+    "Vidéo locale : videos/ma_video.mp4 (place le fichier à côté du HTML)"
+  ],
+  "_image": "Laisse vide pour YouTube (vignette auto). Sinon mets une URL ou un chemin local comme images/mon_image.jpg",
+  "films": {
+    "mecredi22_1": {
+      "titre": "Zootopie",
+      "categorie": "Mercredi 22",
+      "url": "https://www.youtube.com/watch?v=qUmw4as43Uw",
+      "image": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b2eff-aa60-7afd-baef-0ae7ca832329/compose?aspectRatio=1.78&format=webp&width=1200"
+    },
+    "mercredi22_2": {
+      "titre": "Famille Bélier",
+      "categorie": "Mercredi 22",
+      "url": "https://www.youtube.com/watch?v=tEgw97vpkDM",
+      "image": "https://catechese.catholique.fr/wp-content/uploads/sites/15/2018/07/famillebelier.jpg"
+    },
+    "mercredi22_3": {
+      "titre": "Tous en scène",
+      "categorie": "Mercredi 22",
+      "url": "https://www.youtube.com/watch?v=uf5gShKiZRE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglh--BzRaQn3jwDxAv27nVkNtUGPMFkF8JskQjJdb6Q&s=10"
+    },
+    "mercredi22_4": {
+      "titre": "Lilo & Stitch",
+      "categorie": "Mercredi 22",
+      "url": "https://www.youtube.com/watch?v=jTrcDJGJK40",
+      "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/05/lilo-stitch.jpg?w=1200&h=675&fit=crop"
+    },
+    "vendredi24_1": {
+      "titre": "Temptète de boulettes géantes",
+      "categorie": "Vendredi 24",
+      "url": "https://www.youtube.com/watch?v=8CtlT4QTvig",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_IHJahueyat0UarcsGYZtNsyYw4-SmmYl71NymPvpG0OVfNYbAvGgdcK&s=10"
+    },
+    "vendredi24_2": {
+      "titre": "Jackass",
+      "categorie": "Vendredi 24",
+      "url": "https://www.youtube.com/watch?v=YcqFANdXcNI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24sChfFvTZRv3vYfnA_CkUHm65ZAedQmlZaiX_nkhfA&s=10"
+    },
+    "vendredi24_3": {
+      "titre": "Wall-E",
+      "categorie": "Vendredi 24",
+      "url": "https://www.youtube.com/watch?v=CZ1CATNbXg0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_FtNnbUN-63w35EgEabps3jqZ81Lb46Hgau3fvmZnDA&s=10"
+    },
+    "vendredi24_4": {
+      "titre": "Les Croods",
+      "categorie": "Vendredi 24",
+      "url": "https://www.youtube.com/watch?v=9RfgCxNtrWA",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgIkiMGXqJCC4fcPYv4Z_U6RAPieCpkiGR9MK5qsT8oQ&s=10"
+    },
+    "samedi25_1": {
+      "titre": "Tenet",
+      "categorie": "Samedi 25",
+      "url": "https://www.youtube.com/watch?v=NQ5p6WYYK-s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUodlcfivmhsiVoBuglw6fgvZIj6kwu_ymNXyHH-49Ng&s=10"
+    },
+    "samedi25_2": {
+      "titre": "Retour vers le futur",
+      "categorie": "Samedi 25",
+      "url": "https://www.youtube.com/watch?v=cU5BREZ9ke0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSsAvx2PA-tTmysIgVm62YSWy5z23DFrb8LjZaoMGJRg&s=10"
+    },
+    "samedi25_3": {
+      "titre": "Indiana Jones",
+      "categorie": "Samedi 25",
+      "url": "https://www.youtube.com/watch?v=4tvtYAMPsxI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3MswT9y7WAOLikgZ2ZDV1p14y8a5CPGmPEX6M-11yA&s=10"
+    },
+    "samedi25_4": {
+      "titre": "Benjamin Buton",
+      "categorie": "Samedi 25",
+      "url": "https://www.youtube.com/watch?v=dDyJ4pSxC20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f_PCjXpRLR2w7ELoUotTm5y7Esu89UK8m4HMdJX9Pg&s=10"
+    },
+    "samedi26_1": {
+      "titre": "Ratatouille",
+      "categorie": "Dimanche 26",
+      "url": "https://www.youtube.com/watch?v=MuRmBVNHp_s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrPBnIyCt3R4QZMxGVlVTyBIvxE7_khrxD5NjwjFbolQ&s=10"
+    },
+    "samedi26_2": {
+      "titre": "Charlie et la Chocolaterie",
+      "categorie": "Dimanche 26",
+      "url": "https://www.youtube.com/watch?v=xjZihSC42HI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4vR9GviZFAd-cYiZylhj6HgdJJt_XKSiePrMB1BtPQ&s=10"
+    },
+    "samedi26_3": {
+      "titre": "Chef !",
+      "categorie": "Dimanche 26",
+      "url": "https://www.youtube.com/watch?v=gvLmhULOZbI",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0T6WKymU622rXv9B-gFYzjfBFcQDLKwey4cfsYCrDQ&s=10"
+    },
+    "samedi26_4": {
+      "titre": "Comme un chef",
+      "categorie": "Dimanche 26",
+      "url": "https://www.youtube.com/watch?v=SUP-52SjNyk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZeJpJBCo8CS-fKXucTc7uVrJuviCw9WnFkVbEyO2pQ&s=10"
+    },
+    "lundi27_1": {
+      "titre": "La grande vadrouille",
+      "categorie": "Lundi 27",
+      "url": "https://www.youtube.com/watch?v=ZmWcxvB1j_E",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPl2AHiMFi7kSgo2LChnxJjEGRBkLaa29_IxhEpAJRg&s=10"
+    },
+    "lundi27_2": {
+      "titre": "Le Hobbit",
+      "categorie": "Lundi 27",
+      "url": "https://www.youtube.com/watch?v=tiy7peMH3g8",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-XmYrAFwCdCEtmzNCeCWnF_pZswnGDxXyE8t_V2Tow&s=10"
+    },
+    "lundi27_3": {
+      "titre": "Kaizen",
+      "categorie": "Lundi 27",
+      "url": "https://www.youtube.com/watch?v=6VgKYd0JWq4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGORrcMLrO2SIfy1qh4CViVh91i7E0KHCfX1Kid63RA&s=10"
+    },
+    "lundi27_4": {
+      "titre": "Cars",
+      "categorie": "Lundi 27",
+      "url": "https://www.youtube.com/watch?v=jSMYl18wkpk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkdYe_x0QmKyPcaP8VBj0_Q5TFgHGibqBeEoQe-Ph5A&s=10"
+    },
+    "jeudi30_1": {
+      "titre": "Mission Impossible",
+      "categorie": "Jeudi 30",
+      "url": "https://www.youtube.com/watch?v=GM2b1ZZ0Vfg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ultdH3gNKtPi6xKblwAfZH2cvbexVd4lmYajlA2POw&s=10"
+    },
+    "jeudi30_2": {
+      "titre": "Hunger Games",
+      "categorie": "Jeudi 30",
+      "url": "https://www.youtube.com/watch?v=T_OUuZBWRiE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKrgygbtiS-k0HGKA3meivYS2JrkCSRMdcIRWb1pHLw&s=10"
+    }
+  }
+}

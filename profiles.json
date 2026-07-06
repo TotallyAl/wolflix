@@ -20,7 +20,8 @@
       "nom": "Akela",
       "emoji": "🐺",
       "couleur": "#f5a623",
-      "films": "akela.json"
+      "films": "akela.json",
+      "motDePasse": "4321"
     },
     "sona": {
       "nom": "Sona",
